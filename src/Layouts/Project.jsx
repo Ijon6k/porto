@@ -1,3 +1,5 @@
+import plants from "../assets/plants.jpg";
+import fidea from "../assets/fidea.jpg";
 import ProjectCard from "../Components/ProjectCard";
 
 const Project = () => {
@@ -11,7 +13,7 @@ const Project = () => {
           desc="Plants marketplace website, made with vanilla HTML CSS and JS"
         >
           <img
-            src="./src/assets/plants.jpg"
+            src={plants}
             className="w-full object-cover h-full overflow-hidden rounded-xl "
           />
         </ProjectCard>
@@ -21,7 +23,7 @@ const Project = () => {
           desc="Furniture marketplace, made with ReactJS"
         >
           <img
-            src="./src/assets/fidea.jpg"
+            src={fidea}
             className="w-full object-cover h-full overflow-hidden rounded-xl "
           />
         </ProjectCard>
