@@ -11,7 +11,7 @@ const Project = () => {
           desc="Plants marketplace website, made with vanilla HTML CSS and JS"
         >
           <img
-            src="/src/assets/plants.jpg"
+            src="../assets/plants.jpg"
             className="w-full object-cover h-full overflow-hidden rounded-xl "
           />
         </ProjectCard>
@@ -21,7 +21,7 @@ const Project = () => {
           desc="Furniture marketplace, made with ReactJS"
         >
           <img
-            src="/src/assets/fidea.jpg"
+            src="../assets/fidea.jpg"
             className="w-full object-cover h-full overflow-hidden rounded-xl "
           />
         </ProjectCard>
