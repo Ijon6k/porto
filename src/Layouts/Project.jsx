@@ -1,5 +1,5 @@
-import plants from "../assets/plants.jpg";
-import fidea from "../assets/fidea.jpg";
+import plants from "../../public/image/plants.jpg";
+import fidea from "../../public/image/fidea.jpg";
 import ProjectCard from "../Components/ProjectCard";
 
 const Project = () => {
